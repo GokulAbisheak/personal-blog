@@ -1,0 +1,192 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  padding-right: 10px;
+  transition-duration: 300ms;
+}
+
+.homepage-image {
+  position: relative;
+}
+
+.homepage-image img{
+  width: 100%;
+  max-height: 100vh;
+  float: right;
+}
+
+.text-over-image {
+  position: absolute;
+  top: 40%;
+  left: 5vw;
+  width: 80%;
+}
+
+#navbar-tab {
+  color: #3666dd;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+#navbar-tab:hover {
+  color: #000080;
+}
+
+#home {
+  height: 100vh;
+}
+
+#home a button{
+  margin-top: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #31dee4, #3666dd);
+  border: 0px;
+  color: #FFFFFF;
+  transition-duration: 300ms;
+}
+
+#home a button:hover {
+  background-image: linear-gradient(45deg, #3666dd, #000080);
+}
+
+#dropdown-menu {
+  text-align: center;
+}
+
+#dropdown-menu a {
+  color: #3666dd;
+}
+
+
+@media screen and (max-width: 576px) {
+  #navbar-tab {
+    text-align: center;
+  }
+
+  #navbar {
+    background-color: #FFFFFF;
+    position: sticky;
+  }
+
+  .text-over-image {
+    position: relative;
+  }
+
+  #volunteering {
+    margin: 0px 50px;
+  }
+
+}
+
+.about-nav {
+  padding-top: 60px;
+  position: sticky;
+  top: 0px;
+  background-color: #FFFFFF;
+}
+
+.circle-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+#profile {
+  width: 300px;
+  height: auto;
+}
+
+#intro .intro-context {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 18px;
+  max-width: 800px;
+  padding: 0px 20px;
+  margin-bottom: 100px;
+}
+
+#intro {
+  padding-top: 50px;
+}
+
+#education {
+  padding: 0px 100px;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+#crest {
+  height: 200px;
+  width: auto;
+  margin: 50px auto;
+}
+
+#education-grid {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+#education h2 {
+  text-align: center;
+  color: #3666dd;
+}
+
+#skills {
+  padding-top: 60px;
+  min-height: 100vh;
+  position: relative;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+#skills h2 {
+  text-align: center;
+  color: #3666dd;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  max-width: 1200px;
+  padding: 0px 100px;
+  margin: auto;
+}
+
+#volunteering {
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+.volunteering-grid {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+#volunteering h2{
+  color:#3666dd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#volunteering h6, #volunteering p {
+  margin: 0px;
+  margin-left: 20px;
+}
+
+#volunteering img {
+  width: 60px;
+}
+
+#contact {
+  min-height: 100vh;
+}
